@@ -66,11 +66,64 @@
 // console.log(a!==b);
 // t
 
-let a=1
-let b="1"
+// let a=1
+// let b="1"
 // console.log(a!=b && a==10);
 // f  (&& = and)
-console.log(a!=b || a==1);
+// console.log(a!=b || a==1);
 // t  (|| = or)
 
+// --------------------------------------------------------------------
+
+// function sample(){
+
+    // let result=document.getElementById("name")
+    // console.log(result.value);
+    // document.getElementById("display").innerHTML=result.value
+
+    // let result=document.getElementById("name").value
+    // console.log(result);
+    // let h2=document.getElementById("display")
+    // h2.innerHTML=result
+// }
+// ----------------------------------------------------------------------
+    
+function sample(){
+     
+    let n1=parseInt(document.getElementById("n1").value)
+    let n2=parseInt(document.getElementById("n2").value)
+    let h2=document.getElementById("display")
+    h2.innerHTML=n1+n2
+    if(n1==n2){
+        h2.innerHTML='eql'
+    }
+    else if(n1!=n2){
+        h2.innerHTML="not eql"
+    }
+}
+
+function sample2(){
+    let n1=parseInt(document.getElementById("n1").value)
+    let n2=parseInt(document.getElementById("n2").value)
+    let h2=document.getElementById("display")
+    h2.innerHTML=n1-n2
+}
+function sample3(){
+    let n1=parseInt(document.getElementById("n1").value)
+    let n2=parseInt(document.getElementById("n2").value)
+    let h2=document.getElementById("display")
+    h2.innerHTML=n1*n2
+}
+function sample4(){
+    let n1=parseInt(document.getElementById("n1").value)
+    let n2=parseInt(document.getElementById("n2").value)
+    let h2=document.getElementById("display")
+    h2.innerHTML=n1/n2
+}
+function sample5(){
+    let n1=parseInt(document.getElementById("n1").value)
+    let n2=parseInt(document.getElementById("n2").value)
+    let h2=document.getElementById("display")
+    h2.innerHTML=n1%n2
+}
 
