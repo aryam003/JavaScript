@@ -12,33 +12,91 @@
 //     }
 // }
 
-function fun1(){
+// function fun1(){
+//     let n1=parseInt(document.getElementById("n1").value)
+
+//     let h2=document.getElementById("display")
+
+//     if(n1==1){
+//         h2.innerHTML="sunday"
+//     }
+//     else if(n1==2){
+//         h2.innerHTML="monday"
+//     }
+//     else if(n1==3){
+//         h2.innerHTML="tuesday"
+//     }
+//     else if(n1==4){
+//         h2.innerHTML="Wednsday"
+//     }
+//     else if(n1==5){
+//         h2.innerHTML="thusday"
+//     }
+//     else if(n1==6){
+//         h2.innerHTML="friday"
+//     }
+//     else if(n1==7){
+//         h2.innerHTML="satueday"
+//     }
+//     else{
+//         h2.innerHTML="invald"
+//     }
+// }
+
+// function fun2(){
+//     let city=document.getElementById("city").value
+//     let h1=document.getElementById("dis")
+//     if(city=='delhi'){
+//         h1.innerHTML="Mounment red fort"
+//     }
+//     else if(city=='agra'){
+//         h1.innerHTML="Taj Mahal"
+//     }
+//     else if(city=='jaipur'){
+//         h1.innerHTML="jal mahal"
+//     }
+//     else{
+//         h1.innerHTML="Invlaid city"
+//     }
+// }
+
+// function fun2(){
+
+//     let n1=parseInt(document.getElementById("n1").value)
+//     let h1=document.getElementById("dis")
+//     if (n1>=100000){
+//         h1.innerHTML=n1*.15
+//     }
+//     else if(n1>=50000 && n1<=100000){
+//         h1.innerHTML=n1*.10
+//     }
+//     else{
+//         h1.innerHTML=n1*.05
+//     }
+// }
+
+// function fun2(){
+//     let n1=parseInt(document.getElementById("n1").value)
+//     let h1=document.getElementById("dis")
+//     if (n1%3==0){
+//         h1.innerHTML="is divisible"  
+//     }
+//     else{
+//         h1.innerHTML="is not divisible"  
+//     }
+// }
+
+function fun2(){
     let n1=parseInt(document.getElementById("n1").value)
-
-    let h2=document.getElementById("display")
-
-    if(n1==1){
-        h2.innerHTML="sunday"
+    let h1=document.getElementById("dis")
+    if (n1<=100){
+        h1.innerHTML="no charge"  
     }
-    else if(n1==2){
-        h2.innerHTML="monday"
-    }
-    else if(n1==3){
-        h2.innerHTML="tuesday"
-    }
-    else if(n1==4){
-        h2.innerHTML="Wednsday"
-    }
-    else if(n1==5){
-        h2.innerHTML="thusday"
-    }
-    else if(n1==6){
-        h2.innerHTML="friday"
-    }
-    else if(n1==7){
-        h2.innerHTML="satueday"
+    else if(n1<=200 && n1>=100){
+        h1.innerHTML=5*n1(n1-100)  
     }
     else{
-        h2.innerHTML="invald"
+        h1.innerHTML=(n1-200)*10+500
     }
 }
+
