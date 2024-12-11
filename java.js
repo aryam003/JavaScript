@@ -86,17 +86,62 @@
 //     }
 // }
 
-function fun2(){
-    let n1=parseInt(document.getElementById("n1").value)
-    let h1=document.getElementById("dis")
-    if (n1<=100){
-        h1.innerHTML="no charge"  
-    }
-    else if(n1<=200 && n1>=100){
-        h1.innerHTML=5*n1(n1-100)  
-    }
-    else{
-        h1.innerHTML=(n1-200)*10+500
-    }
+// function fun2(){
+//     let n1=parseInt(document.getElementById("n1").value)
+//     let h1=document.getElementById("dis")
+//     if (n1<=100){
+//         h1.innerHTML="no charge"  
+//     }
+//     else if(n1<=200 && n1>=100){
+//         h1.innerHTML=5*n1(n1-100)  
+//     }
+//     else{
+//         h1.innerHTML=(n1-200)*10+500
+//     }
+// }
+
+// --------------------------------------------------------------------------------
+
+
+function fun(){
+
+    // for(let i=1;i<=10;i++){
+        // console.log(i);
+
+    // let i=1
+    // while (i<=10){
+    //     console.log(i);
+    //     i++
+    // }
+
+    // let i=1
+    // do{
+    //     console.log(i);
+    //     i++
+    // }
+    // while(i<=10)
+
+// ----------------------
+    // let n1=parseInt(document.getElementById("n1").value)
+    // let n2=parseInt(document.getElementById("n2").value)
+    // let h1=document.getElementById("dis")
+    // for(let i=n1;i<=n2;i++){
+    //     if (i%2!=0){
+    //         console.log(i)
+    //     }
+    // }
+    
+    // let n1=parseInt(document.getElementById("n1").value)
+    
+    // a=1
+    // for(let i=a;i<=10;i++){
+    //     console.log(a,'*',n1,'=',a*n1)
+    //     a+=1
+    // }
+
+
+    
+    
+
 }
 
