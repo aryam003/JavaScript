@@ -4,26 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #edit_form{
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <!-- <table>
-        <thead>
-             <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>age</th>
-             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table> -->
-
-
     <table>
         <thead>
             <th>Id</th>
@@ -36,10 +23,24 @@
                 <td></td>
                 <td></td>
                 <td></td>
+                
             </tr>
         </tbody>
     
       </table>
+      <form id="add_form">
+        <input type="text" name="" id="id" placeholder="Enter id">
+        <input type="text" name="" id="name" placeholder="Enter name">
+        <input type="number" name="" id="age" placeholder="Enter age">
+        <input type="submit" value="Add">
+      </form>
+
+      <form id="edit_form">
+        <input type="text" name="" id="e_id" placeholder="Enter id">
+        <input type="text" name="" id="e_name" placeholder="Enter name">
+        <input type="number" name="" id="e_age" placeholder="Enter age">
+        <input type="submit" value="update">
+      </form>
 
 
     <script src="string.js"></script>
