@@ -226,11 +226,51 @@
 
 // async await
 
-async function demo(){
-    const data = new Promise((resolve,reject)=>{
-        setTimeout(()=>resolve("data avilable"),2000)
-    })
-    const result=await data
-    console.log(result)
+// async function demo(){
+//     const data = new Promise((resolve,reject)=>{
+//         setTimeout(()=>resolve("data avilable"),2000)
+//     })
+//     const result=await data
+//     console.log(result)
+// }
+// demo()
+
+
+// const fetchdata = async ()=>{
+//     try{
+//         const response = await fetch("https://dummyjson.com/products")
+//         const data = await response.json()
+//         console.log(data.products);
+//     }
+//     catch(error){
+//         console.log(error);
+        
+//     }
+// }
+// fetchdata()
+
+// const fetchdata = async ()=>{
+//     try{
+//         const response = await fetch("https://dummyjson.com/posts")
+//         const data = await response.json()
+//         console.log(data.posts);
+//     }
+//     catch(error){
+//         console.log(error);
+        
+//     }
+// }
+// fetchdata()
+
+const fetchdata = async ()=>{
+    try{
+        const response = await fetch("https://dummyjson.com/quotes")
+        const data = await response.json()
+        console.log(data.quotes);
+    }
+    catch(error){
+        console.log(error);
+        
+    }
 }
-demo()
+fetchdata()
