@@ -28,8 +28,10 @@ const fetchdata = async ()=>{
                 const proid=e.target.getAttribute("data-id")
                 const product=data.products.find((pro)=>pro.id==proid)
                 console.log(product);
-                document.getElementById("model_img").src=product.thumbnail
-                document.getElementById("model_title").innerHTML=product.title
+                document.getElementById("modal_img").src=product.thumbnail
+                document.getElementById("modal_title").innerHTML=product.title
+                // document.getElementById("modal_dec").innerHTML=product.description
+
 
                 
             })
